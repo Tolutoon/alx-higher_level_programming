@@ -2,7 +2,7 @@
 
 const request = require('request');
 const episodeNum = process.argv[2];
-const API_URL = 'https://swap-api.hbtn.io/api/films/';
+const API_URL = 'https://swap-api.alx-tools.com/api/films/';
 
 request(API_URL + episodeNum, function (err, response, body) {
   if (err) {
