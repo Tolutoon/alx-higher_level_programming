@@ -12,7 +12,7 @@ request(url, function(err, response, body) {
     for (const filmIndex in films) {
       const filmChars = films[filmIndex].characters;
       for (const charIndex in filmChars) {
-        if (fimChars[charIndex].includes('18)) {
+        if (filmChars[charIndex].includes('18')) {
           count++;
         }
       }
